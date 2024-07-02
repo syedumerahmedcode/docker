@@ -13,4 +13,8 @@ Timestamp: 12:08
 - - **Private repository**: This belongs to a company as in a company has there own private repository.
 - - **Public repository**: DockerHub is a public repository which anayone can access.
 
-More changes done.
+
+# What to do if?
+
+- How to fix docker: Got permission denied issue
+https://stackoverflow.com/questions/48957195/how-to-fix-docker-got-permission-denied-issue
