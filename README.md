@@ -18,4 +18,4 @@ Timestamp: 12:08
 - - **Private repository**: This belongs to a company as in a company has there own private repository.
 - - **Public repository**: DockerHub is a public repository which anayone can access.
 
-
+More changes done.
