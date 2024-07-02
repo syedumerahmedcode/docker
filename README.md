@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-How to set up a new repo
-https://gist.github.com/alexpchin/dc91e723d4db5018fef8
-
-=======
 # docker
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
