@@ -13,6 +13,9 @@ Timestamp: 14:47
 - - **Private repository**: This belongs to a company as in a company has there own private repository.
 - - **Public repository**: DockerHub is a public repository which anayone can access.
 
+# Docker commands
+- **docker run [image_name]:[specific_version_number_if_needed]**
+
 
 # What to do if?
 
