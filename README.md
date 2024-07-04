@@ -14,8 +14,18 @@ Timestamp: 16:08
 - - **Public repository**: DockerHub is a public repository which anayone can access.
 
 # Docker commands
-- **docker run [image_name]:[specific_version_number_if_needed]**
-- **docker ps**:
+- **docker run [image_name]:[specific_version_number_if_needed]**: For example, docker pull busybox
+
+- **docker ps**: It shows the running conatiners. For example, after executing 'docker run -it --rm busybox' on the machine, it will be shown with a container id when _docker ps_ is executed.
+
+# Docker Image
+- This is the actual image. In simple words, this is the artifactg which is shipped around and it contains the configuration, application and the start script.
+- It is not running on the machine.
+
+# Docker Container
+- It actually start the application.
+- A container environment is created.
+- It is running on the machine.
 
 
 # What to do if?
