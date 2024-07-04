@@ -15,6 +15,7 @@ Timestamp: 14:47
 
 # Docker commands
 - **docker run [image_name]:[specific_version_number_if_needed]**
+- **docker ps**
 
 
 # What to do if?
