@@ -1,7 +1,7 @@
 # docker
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
-Timestamp: 23:53
+Timestamp: 44:12
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -24,8 +24,9 @@ Timestamp: 23:53
 
 # Docker Container
 - It actually start the application.
-- A container environment is created.
+- A container is the running environment for the image.
 - It is running on the machine.
+- One can talk to the application running inside a conatiner using a port.
 
 # Docker vs Virtual Machine
 - All operating systems are made up of the following layers:
