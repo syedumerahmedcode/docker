@@ -1,7 +1,7 @@
 # docker
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
-Timestamp: 16:08
+Timestamp: 23:53
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -26,6 +26,19 @@ Timestamp: 16:08
 - It actually start the application.
 - A container environment is created.
 - It is running on the machine.
+
+# Docker vs Virtual Machine
+- All operating systems are made up of the following layers:
+- - Application
+- - OS Kernel
+- - Hardware
+
+- Docker virtualizes _only the Application layer_ whereas Virtual Machine virtualizes _both Application and OS Kernel_ layers.
+- Size of docker images is much smaller comapred to virtal machine.
+- Speed: Docker containers start and run much faster.
+- Compatibility: VM of any OS can run on any OS host.That is not true for Docker and due to this , in th eolder versions of OS, one needs to install Docker Toolbox.
+
+
 
 
 # What to do if?
