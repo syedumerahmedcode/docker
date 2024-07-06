@@ -14,9 +14,11 @@ Timestamp: 44:12
 - - **Public repository**: DockerHub is a public repository which anayone can access.
 
 # Docker commands
-- **docker run [image_name]:[specific_version_number_if_needed]**: This will run the docker image which is available of the machine. In simple words, it starts new container with this command. By add _-d_ flag, we can start the container in detached mode.
+- **docker run [image_name]:[specific_version_number_if_needed]**: This will run the docker image which is available of the machine. In simple words, it pulls the image (if it does not exist on the local machine) and starts new container. By add _-d_ flag, we can start the container in detached mode.
 
-- **docker ps**: It shows a list of running conatiners. For example, after executing 'docker run -it --rm busybox' on the machine, it will be shown with a container id when _docker ps_ is executed.
+- docker run = _docker pull_ + _docker start_
+
+- **docker ps**: It shows a list of running conatiners. For example, after executing 'docker run -it --rm busybox' on the machine, it will be shown with a container id when _docker ps_ is executed. here, _-a_ flag, lists running as well as stopped containers.
 
 - **docker images**: It is used to get a list of all images on the machine.
 
