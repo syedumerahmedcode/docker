@@ -37,6 +37,9 @@ Timestamp: 1:11:37
 
 
 
+
+
+
 # Docker Image
 - This is the actual image. In simple words, this is the artifactg which is shipped around and it contains the configuration, application and the start script.
 - It is not running on the machine.
@@ -73,6 +76,10 @@ This is resolved via port binding.
 For eaxmple: conatiner has port: 3000 whereas host has port:3001. now, afetr port binding, if one writes command: some-app://localhost:3001, it will connect to port's 3000 port. 
 
 In real world, the following command: docker run -p6000:6379 redis, means that _6000_ port of host machine is connected to the _6379_ port of the container.
+
+
+
+# Add missing parts of how to run the node js application once the tutorial is finished!
 
 # What to do if?
 
