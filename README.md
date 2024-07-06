@@ -36,6 +36,8 @@ Timestamp: 1:15:15
 
 - **docker exec -it [container_id]**: This is used for starting and interactive terminal and browse inside a container. For example: by running _docker exec -it 54d0a544de2e /bin/bash_, the user lands inside the container and has root access to the file system.
 
+- **docker network ls**: Prints out a list of auto generated docker network.
+
 
 
 
