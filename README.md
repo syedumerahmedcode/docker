@@ -14,13 +14,17 @@ Timestamp: 44:12
 - - **Public repository**: DockerHub is a public repository which anayone can access.
 
 # Docker commands
-- **docker run [image_name]:[specific_version_number_if_needed]**: This will run the docker image which is available of the machine. 
+- **docker run [image_name]:[specific_version_number_if_needed]**: This will run the docker image which is available of the machine. In simple words, it starts new container with this command. By add _-d_ flag, we can start the container in detached mode.
 
-- **docker ps**: It shows the running conatiners. For example, after executing 'docker run -it --rm busybox' on the machine, it will be shown with a container id when _docker ps_ is executed.
+- **docker ps**: It shows a list of running conatiners. For example, after executing 'docker run -it --rm busybox' on the machine, it will be shown with a container id when _docker ps_ is executed.
 
 - **docker images**: It is used to get a list of all images on the machine.
 
 - **docker pull [image_name]**: This pulls the docker image from the _dockerhub or some private_ repository. For example, docker pull busybox
+
+- **docker stop [container_id]**: This will stop the container. for example: docker stop 7b601211ae47
+
+- **docker start [container_id]**: This will start the container. for example: docker start 7b601211ae47
 
 # Docker Image
 - This is the actual image. In simple words, this is the artifactg which is shipped around and it contains the configuration, application and the start script.
