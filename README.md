@@ -18,6 +18,8 @@ Timestamp: 44:12
 
 - **docker ps**: It shows the running conatiners. For example, after executing 'docker run -it --rm busybox' on the machine, it will be shown with a container id when _docker ps_ is executed.
 
+- **docker images**: It is used to get a list of all images on the machine.
+
 # Docker Image
 - This is the actual image. In simple words, this is the artifactg which is shipped around and it contains the configuration, application and the start script.
 - It is not running on the machine.
