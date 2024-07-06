@@ -1,7 +1,7 @@
 # docker
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
-Timestamp: 44:12
+Timestamp: 52:55
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -51,6 +51,19 @@ Timestamp: 44:12
 
 
 
+- **Scenario:** What if two different version of same application (for example, redist latest vs redis:4.0) are running on the same machine and they both listen to the same port i.e. 5000? Wat will happen now when I run both of them and try to connect with a specific vertsion?
+
+This is resolved via port binding.
+
+- **Container Port vs Host Port:**
+- Multiple containers can run on your host machine.
+- You laptop has only certain ports available.
+- Conflict happens when same port is used by two or more containers on host machine.
+- This is done via port binding. After port binding is done, we can connect the container port to the host port.
+
+For eaxmple: conatiner has port: 3000 whereas host has port:3001. now, afetr port binding, if one writes command: some-app://localhost:3001, it will connect to port's 3000 port. 
+
+In real world, the following command: docker run -p6000:6379 redis, means that _6000_ port of host machine is connected to the _6379_ port of the container.
 
 # What to do if?
 
