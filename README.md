@@ -1,7 +1,7 @@
 # Docker
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
-Timestamp: 1:10:38
+Timestamp: 1:11:37
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
