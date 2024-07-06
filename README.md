@@ -1,4 +1,4 @@
-# docker
+# Docker
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 Timestamp: 57:22
@@ -24,9 +24,13 @@ Timestamp: 57:22
 
 - **docker pull [image_name]**: This pulls the docker image from the _dockerhub or some private_ repository. For example, docker pull busybox
 
-- **docker stop [container_id]**: This will stop the container. for example: docker stop 7b601211ae47
+- **docker stop [container_id]**: This will stop the container. For example: docker stop 7b601211ae47
 
-- **docker start [container_id]**: This will start the container. for example: docker start 7b601211ae47
+- **docker start [container_id]**: This will start the container. For example: docker start 7b601211ae47
+
+- **docker logs [container_id]**: This prints out the logs of the container. For example: docker logs 7b601211ae47
+
+
 
 # Docker Image
 - This is the actual image. In simple words, this is the artifactg which is shipped around and it contains the configuration, application and the start script.
