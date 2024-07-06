@@ -33,7 +33,7 @@ Timestamp: 1:03:22
 
 - **docker logs [container_id]**: This prints out the logs of the container. For example: _docker logs 7b601211ae47_
 
-- **docker exec -it [container_id]**: This prints out the logs of the container. For example: _docker logs 7b601211ae47_
+- **docker exec -it [container_id]**: This is used for starting and interactive terminal and browse inside a container. For example: by running _docker exec -it 54d0a544de2e /bin/bash_, the user lands inside the container and has root access to the file system.
 
 
 
