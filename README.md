@@ -1,7 +1,7 @@
 # Docker
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
-Timestamp: 57:22
+Timestamp: 1:03:22
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -32,6 +32,8 @@ Timestamp: 57:22
 - **docker start [container_id]**: This will start the container. For example: _docker start 7b601211ae47_
 
 - **docker logs [container_id]**: This prints out the logs of the container. For example: _docker logs 7b601211ae47_
+
+- **docker exec -it [container_id]**: This prints out the logs of the container. For example: _docker logs 7b601211ae47_
 
 
 
