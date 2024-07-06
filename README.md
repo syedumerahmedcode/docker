@@ -18,17 +18,20 @@ Timestamp: 57:22
 
 - docker run = _docker pull_ + _docker start_
 
+- It is also possible to name the containers with a specific name. For example, if we run the following command: _docker run -d -p6001:6379 --name redis-older redis:4.0_. Now, if the user runs _docker ps_, one can see that the conatiner has a name _"redis-older"_.
+
+
 - **docker ps**: It shows a list of running conatiners. For example, after executing 'docker run -it --rm busybox' on the machine, it will be shown with a container id when _docker ps_ is executed. here, _-a_ flag, lists running as well as stopped containers.
 
 - **docker images**: It is used to get a list of all images on the machine.
 
-- **docker pull [image_name]**: This pulls the docker image from the _dockerhub or some private_ repository. For example, docker pull busybox
+- **docker pull [image_name]**: This pulls the docker image from the _dockerhub or some private_ repository. For example, _docker pull busybox_
 
-- **docker stop [container_id]**: This will stop the container. For example: docker stop 7b601211ae47
+- **docker stop [container_id]**: This will stop the container. For example: _docker stop 7b601211ae47_
 
-- **docker start [container_id]**: This will start the container. For example: docker start 7b601211ae47
+- **docker start [container_id]**: This will start the container. For example: _docker start 7b601211ae47_
 
-- **docker logs [container_id]**: This prints out the logs of the container. For example: docker logs 7b601211ae47
+- **docker logs [container_id]**: This prints out the logs of the container. For example: _docker logs 7b601211ae47_
 
 
 
