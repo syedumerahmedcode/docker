@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 1:15:15
+Timestamp: 1:24:24
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -37,6 +37,13 @@ Timestamp: 1:15:15
 - **docker exec -it [container_id]**: This is used for starting and interactive terminal and browse inside a container. For example: by running _docker exec -it 54d0a544de2e /bin/bash_, the user lands inside the container and has root access to the file system.
 
 - **docker network ls**: Prints out a list of auto generated docker network.
+
+- **docker netwrok create [network_name]**: This creates a docker network with the given name. For example, _docker netwrok create mongo-network_.
+
+- docker network create mongo-network 
+- docker run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb --net mongo-network mongo    
+docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --net mongo-network --name mongo-express -e ME_CONFIG_MONGODB_SERVER=mongodb mongo-express   
+
 
 
 
