@@ -29,7 +29,7 @@ Timestamp: 1:03:22
 
 - **docker stop [container_id]**: This will stop the container. For example: _docker stop 7b601211ae47_
 
-- **docker start [container_id]**: This will start the container. For example: _docker start 7b601211ae47_
+- **docker start [container_id]**: This will start the container. For example: _docker start 7b601211ae47_. Please note that _docker run_ works with _images_ whereas _docker start_ works with _containers_.
 
 - **docker logs [container_id]**: This prints out the logs of the container. For example: _docker logs 7b601211ae47_
 
