@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 1:29:50
+Timestamp: 1:31:50
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -95,6 +95,9 @@ In real world, the following command: docker run -p6000:6379 redis, means that _
 # Add missing parts of how to run the node js application once the tutorial is finished!--> Logs in the github readme of Nana.
 
 # Docker Compose
+
+- With docker compose, we can take dockers commands (with their configurations) and map it to a file so that we have structured commands.
+
 
 # What to do if?
 
