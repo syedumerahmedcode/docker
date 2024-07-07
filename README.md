@@ -33,6 +33,7 @@ Timestamp: 1:24:24
 - **docker start [container_id]**: This will start the container. For example: _docker start 7b601211ae47_. Please note that _docker run_ works with _images_ whereas _docker start_ works with _containers_.
 
 - **docker logs [container_id]**: This prints out the logs of the container. For example: _docker logs 7b601211ae47_
+- By adding _-f_ , the logs are displayed continuously on the screen.
 
 - **docker exec -it [container_id]**: This is used for starting and interactive terminal and browse inside a container. For example: by running _docker exec -it 54d0a544de2e /bin/bash_, the user lands inside the container and has root access to the file system.
 
@@ -42,7 +43,7 @@ Timestamp: 1:24:24
 
 - docker network create mongo-network 
 - docker run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb --net mongo-network mongo    
-docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --net mongo-network --name mongo-express -e ME_CONFIG_MONGODB_SERVER=mongodb mongo-express   
+- docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --net mongo-network --name mongo-express -e ME_CONFIG_MONGODB_SERVER=mongodb mongo-express   
 
 
 
