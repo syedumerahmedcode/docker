@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 1:24:24
+Timestamp: 1:29:50
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -92,7 +92,9 @@ In real world, the following command: docker run -p6000:6379 redis, means that _
 
 - **Docker network**:: Docker creates its own isolated network where the containers are running in. So, if two or more containers are deployed in the same docker network, they can talk to each other using just the container name as in, they do not need losthost or port number etc. Just the container name is enough as they are in the same network.
 
-# Add missing parts of how to run the node js application once the tutorial is finished!
+# Add missing parts of how to run the node js application once the tutorial is finished!--> Logs in the github readme of Nana.
+
+# Docker Compose
 
 # What to do if?
 
