@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 1:31:50
+Timestamp: 1:40:20
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -100,6 +100,9 @@ In real world, the following command: docker run -p6000:6379 redis, means that _
 - Note: The docker compose takes care of creating a common network for docker containers by itself.
 - Note: indentation in yaml-file is important.
 
+Command: **docker-compose -f** _[filename]_ **up**
+
+Note: By default, the data ppresent in the docker container is lost once the docker compose file is shutdown and started up again. In order to persist data afetr shutdown of docker compose, **Docker volumes** can be used. **Docker Volumes** are used for _data persistence_.
 
 # What to do if?
 
