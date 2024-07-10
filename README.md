@@ -97,7 +97,8 @@ In real world, the following command: docker run -p6000:6379 redis, means that _
 # Docker Compose
 
 - With docker compose, we can take dockers commands (with their configurations) and map it to a file so that we have structured commands.
-- Please note that docker compose takes care of creating a common network for docker containers by itself.
+- Note: The docker compose takes care of creating a common network for docker containers by itself.
+- Note: indentation in yaml-file is important.
 
 
 # What to do if?
