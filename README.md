@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 1:42:00
+Timestamp: 1:47:00
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -109,7 +109,13 @@ This command shutdolwns the docker container created from the _docmer compose_ f
 
 # Docker File
 
-- A docker file is blueprint for building images.
+- A docker file is blueprint for building docker images.
+# Syntax of a Docker file
+- **FROM**:Start by basing it on another image. For example, FROM node, which hsa the same affect as _docker pull node_.
+- **ENV**: Used for configuring environment variable in a docker file.
+- **RUN**: Used for executing any linux command. the directories created using _RUN_ command are created inside the docker container and NOT inside the host machine.
+
+
 
 # What to do if?
 
