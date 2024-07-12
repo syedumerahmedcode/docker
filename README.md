@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 1:40:20
+Timestamp: 1:42:00
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
