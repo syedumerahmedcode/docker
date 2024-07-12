@@ -107,6 +107,10 @@ Note: By default, the data ppresent in the docker container is lost once the doc
 Command: **docker-compose -f** _[filename]_ **down**
 This command shutdolwns the docker container created from the _docmer compose_ file and in addition, it will also shutdown the docker network that it created when _up_ command was executed.
 
+# Docker File
+
+- A docker file is blueprint for building images.
+
 # What to do if?
 
 - How to fix docker: Got permission denied issue
