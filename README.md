@@ -102,7 +102,10 @@ In real world, the following command: docker run -p6000:6379 redis, means that _
 
 Command: **docker-compose -f** _[filename]_ **up**
 
-Note: By default, the data ppresent in the docker container is lost once the docker compose file is shutdown and started up again. In order to persist data afetr shutdown of docker compose, **Docker volumes** can be used. **Docker Volumes** are used for _data persistence_.
+Note: By default, the data ppresent in the docker container is lost once the docker compose file is shutdown and started up again. In order to persist data after shutdown of docker compose, **Docker volumes** can be used. **Docker Volumes** are used for _data persistence_.
+
+Command: **docker-compose -f** _[filename]_ **down**
+This command shutdolwns the docker container created from the _docmer compose_ file and in addition, it will also shutdown the docker network that it created when _up_ command was executed.
 
 # What to do if?
 
