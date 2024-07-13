@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 1:52:04
+Timestamp: 1:57:18
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -119,6 +119,9 @@ This command shutdolwns the docker container created from the _docmer compose_ f
 
 **Relationship between RUN and CMD command**:
 - CMD is marked as an entrypoint command for the Docker file. In other words, you can run _multiple_ RUN commands but only _one_ CMD command.
+
+**Note:**
+- Whe we adjust the Dockerfile, we must **rebuild** the image.
 
 
 
