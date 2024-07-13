@@ -114,6 +114,11 @@ This command shutdolwns the docker container created from the _docmer compose_ f
 - **FROM**:Start by basing it on another image. For example, FROM node, which hsa the same affect as _docker pull node_.
 - **ENV**: Used for configuring environment variable in a docker file.
 - **RUN**: Used for executing any linux command. the directories created using _RUN_ command are created inside the docker container and NOT inside the host machine.
+- **COPY**: Copies the file from the host machine to inside the container image.
+- **CMD**: It acts as the entrypoint for the docker file. In concept, this is similar to **main()** in _Java_.
+
+**Relationship between RUN and CMD command**:
+- CMD is marked as an entrypoint command for the Docker file. In other words, you can run _multiple_ RUN commands but only _one_ CMD command.
 
 
 
