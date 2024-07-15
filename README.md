@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 1:57:18
+Timestamp: 1:58:02
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -44,6 +44,11 @@ Timestamp: 1:57:18
 - docker network create mongo-network 
 - docker run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb --net mongo-network mongo    
 - docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --net mongo-network --name mongo-express -e ME_CONFIG_MONGODB_SERVER=mongodb mongo-express   
+
+- **docker rm [container_id]**: Removes the container from docker. Here, the __container_id__ can be fetched via _docker ps_.
+
+- **docker rmi [image_id]**: Removes the docker image.
+
 
 
 
@@ -121,7 +126,8 @@ This command shutdolwns the docker container created from the _docmer compose_ f
 - CMD is marked as an entrypoint command for the Docker file. In other words, you can run _multiple_ RUN commands but only _one_ CMD command.
 
 **Note:**
-- Whe we adjust the Dockerfile, we must **rebuild** the image.
+- Whe we adjust the Dockerfile, we must **rebuild** the image. This is because the old image is not overwritten (so to say no hot deploy for the docker image).
+
 
 
 
