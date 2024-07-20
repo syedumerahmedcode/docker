@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 2:01:13
+Timestamp: 2:09:30
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -131,6 +131,20 @@ This command shutdolwns the docker container created from the _docker compose_ f
 
 **Note:**
 - Whe we adjust the Dockerfile, we must **rebuild** the image. This is because the old image is not overwritten (so to say no hot deploy for the docker image).
+
+# Private Docker Registry
+- **Docker private repository**: In case of Amazon, one can use Amazon Elastic Container Services(Amazon ECS). It has one repository per image. Here, one saves and stores different tags (versions) of the same image.
+- Registry options
+- **Build and tag an image**:
+- _Image nameing in docker registries_:registryDomain/imageName:tag
+- **Docker login**: in case of AWS, the pre-requisite are:
+- The AWS Cli needs to be installed.
+- Credentials are configured.
+- **Docker push**:
+- One has to always login to the private repository i.e. _docker login_. 
+- 
+
+
 
 
 
