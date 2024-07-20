@@ -2,7 +2,7 @@
 
 Video Link: https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana
 
-Timestamp: 1:58:02
+Timestamp: 2:01:13
 
 # Container
 - A container is a way to **package** an application with **all** the necessary **dependencies** and **configuration**.
@@ -51,7 +51,9 @@ Timestamp: 1:58:02
 
 - **docker build -t [image_name]:[version_numer]**: Used for building a docker image. Here, __image_name__ is mandatory but __version_number__ is optional.
 
+- **docker build -t my-app:1.0**: Used for building a docker image. Here, instead of _my-app:1.0_, please replace it with the __[application_name]:[version_number]__.
 
+- **docker run my-app:1.0**: Used for running a docker image. Here, instead of _my-app:1.0_, please replace it with the __[application_name]:[version_number]__.
 
 
 
