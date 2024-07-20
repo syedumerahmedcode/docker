@@ -47,7 +47,9 @@ Timestamp: 1:58:02
 
 - **docker rm [container_id]**: Removes the container from docker. Here, the __container_id__ can be fetched via _docker ps_.
 
-- **docker rmi [image_id]**: Removes the docker image.
+- **docker rmi [image_id]**: Removes the docker image.  Here, the __image_id__ can be fetched via _docker images_.
+
+- **docker build -t [image_name]:[version_numer]**: Used for building a docker image. Here, __image_name__ is mandatory but __version_number__ is optional.
 
 
 
