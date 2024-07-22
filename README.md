@@ -143,7 +143,25 @@ This command shutdolwns the docker container created from the _docker compose_ f
 - Credentials are configured.
 - **Docker push**:
 - One has to always login to the private repository i.e. _docker login_. 
-- 
+
+# Docker Volumes
+- It is used for **data persistence**. For example, it is used for _databases_ or for other _stateful applications_.
+- Data gets automatically replicated. This replication is between the container's Virtual file system and the host's Physical file system and the replications works both ways. Meaning if one side changes(irrespective which one), the changes are replicated on the other saide as well.
+
+**When do we need Docker volumes?**
+- Data is gone when restarting or removing a container.
+
+**3 Volume types**
+- _Host Volume_: Volume directory on the host machine is specified.
+- _Anonymous volume_: A volume is created by the docker on the hots machine automatically.
+- _Named volumes_: Similar to anaynymous volumes but the automatically generated host directory has a fixed name which is specified in the command. One can reference the volume by name and it should be used in production.
+
+**Docker Volume Locations**
+- _Windows_: C:\ProgramData\docker\volumes
+- _Linux_: /var/lib/docker/volumes
+- _Mac_: /var/lib/docker/volumes NOTE: Docker for Mac creates a Linux Virtual Machine and stores all the Docker data here.
+
+
 
 
 
