@@ -93,7 +93,7 @@ This is resolved via port binding.
 - Conflict happens when same port is used by two or more containers on host machine.
 - This is done via port binding. After port binding is done, we can connect the container port to the host port.
 
-For eaxmple: conatiner has port: 3000 whereas host has port:3001. now, afetr port binding, if one writes command: some-app://localhost:3001, it will connect to port's 3000 port. 
+For eaxmple: container has port: 3000 whereas host has port:3001. now, after port binding, if one writes command: some-app://localhost:3001, it will connect to port's 3000 port. In other wods, _3000:3000_ means that the port of the host machine (left side 3000) is connected to the port of the container(right side 3000).
 
 In real world, the following command: docker run -p6000:6379 redis, means that _6000_ port of host machine is connected to the _6379_ port of the container.
 
@@ -137,6 +137,7 @@ This command shutdolwns the docker container created from the _docker compose_ f
 - Registry options
 - **Build and tag an image**:
 - _Image nameing in docker registries_:registryDomain/imageName:tag
+- docker tag = rename the image.
 - **Docker login**: in case of AWS, the pre-requisite are:
 - The AWS Cli needs to be installed.
 - Credentials are configured.
